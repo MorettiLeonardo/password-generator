@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #252525;
+    color: rgb(182, 182, 182);
+}
+
+.app h1 {
+    padding: 1rem;
+}
+
+.app button {
+    background-color: rgb(25, 25, 25);
+    border: 1px solid transparent;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: 150ms;
+    color: white;
+    text-align: center;
+    width: 8rem;
+}
+
+.app button:hover {
+    background-color: rgb(35, 35, 35);
+    border: 1px solid black;
+}
